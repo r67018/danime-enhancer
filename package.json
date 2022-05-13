@@ -9,7 +9,6 @@
     "clean": "rimraf dist"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.184",
     "@types/jquery": "^3.5.14",
     "copy-webpack-plugin": "^10.2.4",
     "rimraf": "^3.0.2",
