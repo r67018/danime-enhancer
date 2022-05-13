@@ -1,6 +1,6 @@
 import $ from 'jquery'
+import addPagingAbove from './addPagingAbove'
 
 $(() => {
-    const paging: JQuery<HTMLElement> = $('.paging').clone()
-    paging.insertBefore('.itemWrapper')
+    addPagingAbove()
 })
