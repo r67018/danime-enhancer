@@ -1,6 +1,6 @@
 import $ from 'jquery'
 
 export default () => {
-    const paging: JQuery<HTMLElement> = $('.paging').clone()
-    paging.insertAfter('.mypageHeader')
+  const paging: JQuery<HTMLElement> = $('.paging').clone()
+  paging.insertAfter('.mypageHeader')
 }
